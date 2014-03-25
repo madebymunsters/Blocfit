@@ -2,7 +2,6 @@
 
 // Color Variables
 $white: #fff;
-$black: #333;
 $blue: #3498db;
 $background: #ecf0f1;
 $light-gray: #bdc3c7;
@@ -36,14 +35,10 @@ h2 {
   text-align: center;
   text-transform: uppercase;
 }
-
-
-
 canvas {
   display:block;
   margin:0 auto;
 }
-
 .contain-to-grid {
   background:$blue;
   .top-bar {
@@ -53,14 +48,6 @@ canvas {
     }
   }
 }
-
-.panel {
-  background:$white;
-  border:none;
-  box-shadow: 0 2px 3px $light-gray;
-  margin:2em 0 0;
-}
-
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background:darken( $blue, 10% );
   font-family: $headline-font;
@@ -68,54 +55,6 @@ canvas {
     background:darken( $blue, 15% );
   }
 }
-
-.panel h3 {
-  position: relative;
-  top:-125px;
-  text-align: center;
-  margin:0 auto;
-  display:block;
-  font-size:2.15em;
-  height:0;
-  font-weight:900;
-  span {
-    display:block;
-    font-weight: 300;
-    font-size: 0.5em;
-    color:$gray!important;
-  }
-}
-.panel h3.week {
-  color:$light-teal;
-}
-.panel h3.month {
-  color:$medium-teal;
-}
-.panel h3.year {
-  color:$dark-teal;
-}
-
-
-.doughnut {
-  p {
-    text-align: center;
-    line-height: 1.4;
-    color:$gray;
-    font-weight: 300;
-  }
-}
-
-footer {
-  padding:2em 0 1em;
-  p {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 0.875em;
-    color:$gray;
-
-  }
-}
-
 #profile {
   margin-top:1em;
   margin-bottom: 0;
@@ -153,5 +92,54 @@ footer {
         }
       }
     }
+  }
+}
+.panel {
+  background:$white;
+  border:none;
+  box-shadow: 0 2px 3px $light-gray;
+  margin:2em 0 0;
+  h3 {
+    position: relative;
+    top:-125px;
+    text-align: center;
+    margin:0 auto;
+    display:block;
+    font-size:2.15em;
+    height:0;
+    font-weight:900;
+    span {
+      display:block;
+      font-weight: 300;
+      font-size: 0.5em;
+      color:$gray!important;
+    }
+  }
+}
+.panel h3.week {
+  color:$light-teal;
+}
+.panel h3.month {
+  color:$medium-teal;
+}
+.panel h3.year {
+  color:$dark-teal;
+}
+.doughnut {
+  p {
+    text-align: center;
+    line-height: 1.4;
+    color:$gray;
+    font-weight: 300;
+  }
+}
+footer {
+  padding:2em 0 1em;
+  p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    color:$gray;
+
   }
 }
