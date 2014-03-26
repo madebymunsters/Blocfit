@@ -9525,90 +9525,90 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 20, ../scss/_overrides.scss */
+/* line 18, ../scss/_overrides.scss */
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #ecf0f1;
 }
 
-/* line 24, ../scss/_overrides.scss */
+/* line 22, ../scss/_overrides.scss */
 h1, h2, h3, h4, h5, h6, .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #7f8c8d;
 }
 
-/* line 29, ../scss/_overrides.scss */
+/* line 27, ../scss/_overrides.scss */
 h1 {
   font-weight: 100;
   color: #34495e;
 }
 
-/* line 33, ../scss/_overrides.scss */
+/* line 31, ../scss/_overrides.scss */
 h2 {
   font-size: 1.2em;
   text-align: center;
   text-transform: uppercase;
 }
 
-/* line 38, ../scss/_overrides.scss */
+/* line 36, ../scss/_overrides.scss */
 canvas {
   display: block;
   margin: 0 auto;
 }
 
-/* line 42, ../scss/_overrides.scss */
+/* line 40, ../scss/_overrides.scss */
 .contain-to-grid {
   background: #3498db;
 }
-/* line 44, ../scss/_overrides.scss */
+/* line 42, ../scss/_overrides.scss */
 .contain-to-grid .top-bar {
   background: #3498db;
 }
-/* line 46, ../scss/_overrides.scss */
+/* line 44, ../scss/_overrides.scss */
 .contain-to-grid .top-bar h1 a {
   font-weight: 700;
 }
 
-/* line 51, ../scss/_overrides.scss */
+/* line 49, ../scss/_overrides.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background: #217dbb;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 54, ../scss/_overrides.scss */
+/* line 52, ../scss/_overrides.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   background: #1d6fa5;
 }
 
-/* line 58, ../scss/_overrides.scss */
+/* line 56, ../scss/_overrides.scss */
 #profile {
   margin-top: 1em;
   margin-bottom: 0;
 }
-/* line 62, ../scss/_overrides.scss */
+/* line 60, ../scss/_overrides.scss */
 #profile .face img {
   border-radius: 50%;
   border: 3px solid white;
   display: inline-block;
   box-shadow: 0 2px 3px #bdc3c7;
 }
-/* line 69, ../scss/_overrides.scss */
+/* line 67, ../scss/_overrides.scss */
 #profile h1 {
   margin-bottom: 0;
 }
-/* line 72, ../scss/_overrides.scss */
+/* line 70, ../scss/_overrides.scss */
 #profile p {
   margin: 0 0 .25em;
   color: #7f8c8d;
   font-weight: 300;
 }
-/* line 77, ../scss/_overrides.scss */
+/* line 75, ../scss/_overrides.scss */
 #profile ul {
   list-style-type: none;
   margin: .5em 0 0;
   padding: 0;
 }
-/* line 81, ../scss/_overrides.scss */
+/* line 79, ../scss/_overrides.scss */
 #profile ul li {
   display: inline;
   background: #3498db;
@@ -9617,23 +9617,23 @@ canvas {
   font-size: 0.75em;
   margin-right: 0.5em;
 }
-/* line 88, ../scss/_overrides.scss */
+/* line 86, ../scss/_overrides.scss */
 #profile ul li a {
   color: white;
 }
-/* line 90, ../scss/_overrides.scss */
+/* line 88, ../scss/_overrides.scss */
 #profile ul li a i {
   margin-right: 0.5em;
 }
 
-/* line 97, ../scss/_overrides.scss */
+/* line 95, ../scss/_overrides.scss */
 .panel {
   background: white;
   border: none;
   box-shadow: 0 2px 3px #bdc3c7;
   margin: 2em 0 0;
 }
-/* line 102, ../scss/_overrides.scss */
+/* line 100, ../scss/_overrides.scss */
 .panel h3 {
   position: relative;
   top: -125px;
@@ -9644,7 +9644,7 @@ canvas {
   height: 0;
   font-weight: 900;
 }
-/* line 111, ../scss/_overrides.scss */
+/* line 109, ../scss/_overrides.scss */
 .panel h3 span {
   display: block;
   font-weight: 300;
@@ -9652,22 +9652,22 @@ canvas {
   color: #7f8c8d !important;
 }
 
-/* line 119, ../scss/_overrides.scss */
+/* line 117, ../scss/_overrides.scss */
 .panel h3.week {
   color: #4eddc1;
 }
 
-/* line 122, ../scss/_overrides.scss */
+/* line 120, ../scss/_overrides.scss */
 .panel h3.month {
   color: #1abc9c;
 }
 
-/* line 125, ../scss/_overrides.scss */
+/* line 123, ../scss/_overrides.scss */
 .panel h3.year {
   color: #0b9277;
 }
 
-/* line 129, ../scss/_overrides.scss */
+/* line 127, ../scss/_overrides.scss */
 .doughnut p {
   text-align: center;
   line-height: 1.4;
@@ -9675,11 +9675,11 @@ canvas {
   font-weight: 300;
 }
 
-/* line 136, ../scss/_overrides.scss */
+/* line 134, ../scss/_overrides.scss */
 footer {
   padding: 2em 0 1em;
 }
-/* line 138, ../scss/_overrides.scss */
+/* line 136, ../scss/_overrides.scss */
 footer p {
   text-align: center;
   text-transform: uppercase;
